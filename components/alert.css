@@ -6,7 +6,7 @@
 }
 
 .alert{
-    padding:20px;
+    padding:1.25rem;
     color: white;
 }
 
@@ -30,8 +30,8 @@
     color:white;
     font-weight: bold;
     float: right;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 1.5rem;
+    line-height: 1.25px;
     cursor:pointer;
 }
 
