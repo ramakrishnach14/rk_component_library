@@ -1,0 +1,40 @@
+:root{
+    --alert-danger:#F66359;
+    --alert-success:#2FB986;
+    --alert-info:#47A8F5;
+    --alert-warning:#FFAA2C;
+}
+
+.alert{
+    padding:1.25rem;
+    color: white;
+}
+
+.alert-danger{
+    background-color:var(--alert-danger);
+}
+
+.alert-success{
+    background-color:var(--alert-success);
+}
+
+.alert-info{
+    background-color:var(--alert-info);
+}
+
+.alert-warning{
+    background-color:var(--alert-warning);
+}
+
+.alert-close{
+    color:white;
+    font-weight: bold;
+    float: right;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    cursor:pointer;
+}
+
+.alert-close:hover{
+    color:black;
+}
