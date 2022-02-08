@@ -1,0 +1,41 @@
+.badge-btn,.badge-container{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    color: #333333;
+    background-color: #dddddd;
+    border:none;
+    outline: none;
+    border-radius: 50%;
+
+}
+
+.badge-btn:hover,.badge-container:hover{
+    cursor:pointer;
+}
+
+.badge-btn:active,.badge-container:active{
+    background: #cccccc;
+}
+
+.badge-icon{
+    font-size: 2rem;
+}
+
+.badge-text{
+    font-size: 0.8rem;
+    position: absolute;
+    top: -1rem;
+    right:-1rem;
+    width:2.5rem;
+    height:2.5rem;
+    background: red;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
