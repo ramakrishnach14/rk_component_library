@@ -1,0 +1,22 @@
+:root{
+    --primary-color:#9ACD32;
+}
+
+.btn{
+    padding: 0.8rem;
+    border-radius: 4%; 
+    color: black;
+    font-weight: 300;
+    border:none;
+}
+
+.btn-primary{
+    font-size: 0.8rem;
+    background-color: var(--primary-color);
+}
+
+.btn-primary:hover{
+    background-color: #c2e976;
+    cursor: pointer;
+}
+
