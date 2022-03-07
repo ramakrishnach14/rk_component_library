@@ -55,11 +55,6 @@
     z-index: 39;
 }
 
-/* .card-image img{
-    width:inherit;
-    height: inherit;
-} */
-
 .card-dismiss{
     position:absolute;
     top: 1rem;
@@ -93,4 +88,15 @@
 .bottom-right{
     bottom: 1rem;
     right:1rem;
+}
+
+.card-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-shadow{
+    box-shadow: 5px 10px 8px;
 }
