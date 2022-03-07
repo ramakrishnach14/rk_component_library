@@ -1,0 +1,102 @@
+.card{
+    width: 25rem;
+    min-height: 20rem;
+    border:1px solid black;
+    border-radius: 2%;
+    position: relative;
+
+}
+
+.card-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-bottom:1px solid black;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.card-info{
+    font-size: 1rem;
+    font-weight: 200;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.card-badge{
+    width: 10em;
+    height:3em;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4%;
+    background-color: chartreuse;
+    margin: 1rem;
+
+}
+
+.card-image{
+    margin: 1rem;
+    width: 15rem;
+    height: 12rem;
+}
+
+.card-image-full{
+    width: 100%;
+    height:100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 2%;
+    z-index: 39;
+}
+
+.card-dismiss{
+    position:absolute;
+    top: 1rem;
+    right:1rem;
+}
+
+.card-dismiss:hover{
+    cursor: pointer;
+}
+
+.card-overlay{
+    position: absolute;
+    z-index:2;
+}
+
+.top-left{
+    top:1rem;
+    left:1rem;
+}
+
+.top-right{
+    top:1rem;
+    right:1rem;
+}
+
+.bottom-left{
+    bottom:1rem;
+    left:1rem;
+}
+
+.bottom-right{
+    bottom: 1rem;
+    right:1rem;
+}
+
+.card-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-shadow{
+    box-shadow: 5px 10px 8px;
+}
