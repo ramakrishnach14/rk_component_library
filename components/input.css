@@ -1,0 +1,19 @@
+.input{
+    display: block;
+    border : 1px solid black;
+    margin:1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.input ::placeholder{
+    font-size: 1.5rem;
+}
+
+.input-success{
+    border : 2px solid green;
+}
+
+.input-fail{
+    border : 2px solid red;
+}
